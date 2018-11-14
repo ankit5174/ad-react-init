@@ -1,0 +1,20 @@
+{
+  "name": "ad-react-init",
+  "version": "1.0.0",
+  "description": "React Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ankit Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.2.0",
+    "shelljs": "^0.8.3"
+  },
+  "bin": {
+    "ad-react-init": "./index.js"
+  }
+}

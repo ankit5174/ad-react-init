@@ -14,6 +14,14 @@
     "inquirer": "^6.2.0",
     "shelljs": "^0.8.3"
   },
+  "keywords": [
+    "create-react-app",
+    "redux",
+    "react boilerplate",
+    "boilerplate",
+    "react redux",
+    "react redux boiler plate"
+  ],
   "bin": {
     "ad-react-init": "./index.js"
   }

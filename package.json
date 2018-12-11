@@ -1,6 +1,6 @@
 {
   "name": "ad-react-init",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "React Boilerplate",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "react boilerplate",
     "boilerplate",
     "react redux",
-    "react redux boiler plate"
+    "react redux boilerplate"
   ],
   "bin": {
     "ad-react-init": "./index.js"

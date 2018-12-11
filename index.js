@@ -34,7 +34,7 @@ const excecuteCRA = (projectName) => {
     const cra = JSON.parse(shell.exec("npm ls -g --depth=0 create-react-app --json", {silent: true}).stdout);
     if (!(cra.dependencies && cra.dependencies['create-react-app'])) {
         console.log("Installing packages. This might take a couple of minutes.");
-        shell.exec(`npm i -g create-react-app}`, {async: false});
+        shell.exec(`npm i -g create-react-app`, {async: false});
     }
     shell.exec(`create-react-app ${projectName}`, {async: false});
 };
